@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Agenda.Aplicacao.ViewModel.ContatoTelefoneViewModel>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefone)
+                    </td>
+                    <td>
+                        @if (ViewBag.Status == "NovoContato")
+                        {
+                            <a asp-action="DeletarTelefoneLista" asp-route-telefone="@item.Telefone" title="Delete" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </a>
+                        }
+                        else if (ViewBag.Status == "EditarContato")
+                        {
+                            <a asp-action="DeletarTelefone" asp-route-idContatoTelefone="@item.IdContatoTelefone"  asp-route-idContato="@item.IdContato" title="Delete" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

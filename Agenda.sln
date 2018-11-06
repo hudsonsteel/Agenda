@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{077176C2-EAD6-4460-8C82-018FCB37BCDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servico", "2 - Servico", "{F0CAC4B2-A150-441F-9772-7A53B971C499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicacao", "3 - Aplicacao", "{DCE075C2-A8EC-44D9-9407-4E686748D6BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Dominio", "4 - Dominio", "{8814F167-235A-4ED9-A868-A012F62257AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{A6F88C0B-23DB-4334-8C66-4BB1322F4D4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Dominio", "Agenda.Dominio\Agenda.Dominio.csproj", "{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Infra", "Agenda.Infra\Agenda.Infra.csproj", "{4849F997-7B81-4C9D-94FF-F1A6671AEBE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.UI.SITE", "Agenda.UI.SITE\Agenda.UI.SITE.csproj", "{828D486E-3811-4DC4-9C53-FCDE74B602B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Aplicacao", "Agenda.Aplicacao\Agenda.Aplicacao.csproj", "{84943B7F-EE99-4893-9DAD-8D4EA872408D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Dominio.Core", "Agenda.Dominio.Core\Agenda.Dominio.Core.csproj", "{4573661F-1D6D-4977-9929-17C248D0B42F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Infra.Ioc", "Agenda.Infra.Ioc\Agenda.Infra.Ioc.csproj", "{55450466-1FAF-49CB-A66C-49F4984362C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4849F997-7B81-4C9D-94FF-F1A6671AEBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4849F997-7B81-4C9D-94FF-F1A6671AEBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4849F997-7B81-4C9D-94FF-F1A6671AEBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4849F997-7B81-4C9D-94FF-F1A6671AEBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828D486E-3811-4DC4-9C53-FCDE74B602B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828D486E-3811-4DC4-9C53-FCDE74B602B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828D486E-3811-4DC4-9C53-FCDE74B602B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828D486E-3811-4DC4-9C53-FCDE74B602B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84943B7F-EE99-4893-9DAD-8D4EA872408D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84943B7F-EE99-4893-9DAD-8D4EA872408D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84943B7F-EE99-4893-9DAD-8D4EA872408D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84943B7F-EE99-4893-9DAD-8D4EA872408D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4573661F-1D6D-4977-9929-17C248D0B42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4573661F-1D6D-4977-9929-17C248D0B42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4573661F-1D6D-4977-9929-17C248D0B42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4573661F-1D6D-4977-9929-17C248D0B42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55450466-1FAF-49CB-A66C-49F4984362C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55450466-1FAF-49CB-A66C-49F4984362C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55450466-1FAF-49CB-A66C-49F4984362C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55450466-1FAF-49CB-A66C-49F4984362C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97F29179-E881-4D1D-B4CB-3B1F5EFFA53D} = {8814F167-235A-4ED9-A868-A012F62257AE}
+		{4849F997-7B81-4C9D-94FF-F1A6671AEBE5} = {A6F88C0B-23DB-4334-8C66-4BB1322F4D4F}
+		{828D486E-3811-4DC4-9C53-FCDE74B602B8} = {077176C2-EAD6-4460-8C82-018FCB37BCDA}
+		{84943B7F-EE99-4893-9DAD-8D4EA872408D} = {DCE075C2-A8EC-44D9-9407-4E686748D6BE}
+		{4573661F-1D6D-4977-9929-17C248D0B42F} = {8814F167-235A-4ED9-A868-A012F62257AE}
+		{55450466-1FAF-49CB-A66C-49F4984362C2} = {A6F88C0B-23DB-4334-8C66-4BB1322F4D4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {752EEE1A-44D5-4B30-A171-B62B9096D4F6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/hudsonsteel
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Agenda.Aplicacao\\Agenda.Aplicacao.csproj
+		SccProjectTopLevelParentUniqueName1 = Agenda.sln
+		SccProjectName1 = Agenda.Aplicacao
+		SccLocalPath1 = Agenda.Aplicacao
+		SccProjectUniqueName2 = Agenda.Dominio.Core\\Agenda.Dominio.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = Agenda.sln
+		SccProjectName2 = Agenda.Dominio.Core
+		SccLocalPath2 = Agenda.Dominio.Core
+		SccProjectUniqueName3 = Agenda.Dominio\\Agenda.Dominio.csproj
+		SccProjectTopLevelParentUniqueName3 = Agenda.sln
+		SccProjectName3 = Agenda.Dominio
+		SccLocalPath3 = Agenda.Dominio
+		SccProjectUniqueName4 = Agenda.Infra.Ioc\\Agenda.Infra.Ioc.csproj
+		SccProjectTopLevelParentUniqueName4 = Agenda.sln
+		SccProjectName4 = Agenda.Infra.Ioc
+		SccLocalPath4 = Agenda.Infra.Ioc
+		SccProjectUniqueName5 = Agenda.Infra\\Agenda.Infra.csproj
+		SccProjectTopLevelParentUniqueName5 = Agenda.sln
+		SccProjectName5 = Agenda.Infra
+		SccLocalPath5 = Agenda.Infra
+		SccProjectUniqueName6 = Agenda.UI.SITE\\Agenda.UI.SITE.csproj
+		SccProjectTopLevelParentUniqueName6 = Agenda.sln
+		SccProjectName6 = Agenda.UI.SITE
+		SccLocalPath6 = Agenda.UI.SITE
+	EndGlobalSection
+EndGlobal

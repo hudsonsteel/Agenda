@@ -1,0 +1,16 @@
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Aplicacao.deps.json
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Aplicacao.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Aplicacao.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Dominio.Core.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Dominio.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Infra.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Dominio.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Infra.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\bin\Debug\netcoreapp2.1\Agenda.Dominio.Core.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.csprojAssemblyReference.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.AssemblyInfo.cs
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.csproj.CopyComplete
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Aplicacao\obj\Debug\netcoreapp2.1\Agenda.Aplicacao.pdb

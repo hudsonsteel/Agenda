@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Agenda.Aplicacao.ViewModel.ContatoEmailViewModel>
+
+<section>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @if (ViewBag.Status == "NovoContato")
+                            {
+                            <a asp-action="DeletarEmailLst" asp-route-email="@item.Email" title="Delete" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </a>
+                            }
+                            else if (ViewBag.Status == "EditarContato")
+                            {
+                                <a asp-action="DeletarEmail" asp-route-idContatoEmail="@item.IdContatoEmail" asp-route-idContato="@item.IdContato" title="Delete" class="btn btn-danger">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                            }
+                            
+                        </td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</section>
+@*<script>
+    $.ajax({
+        url: "DeletarEmail",
+        type: 'Post',
+        success: function (response) {
+            $('').html(reponse);
+        }
+    })
+</script>*@
+

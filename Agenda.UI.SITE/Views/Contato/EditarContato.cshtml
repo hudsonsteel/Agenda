@@ -1,0 +1,39 @@
+﻿@model Agenda.Aplicacao.ViewModel.ContatoViewModel
+
+<h4>Editar Contato</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditarContato">
+            <vc:summary />
+
+            <partial name="_Contato" model="Model" />
+
+            <partial name="_ContatoTelefone" model="Model" />
+
+            <partial name="_ContatoEmail" model="Model" />
+        </form>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1">
+        <section>
+            <h4>Telefones Cadastrados.</h4>
+            <hr />
+            <partial name="_ListaTelefone" model="Model?.ContatoTelefones" />
+        </section>
+    </div>
+    <div class="col-md-3 col-md-offset-0">
+        <section>
+            <h4>Emails Cadastrados.</h4>
+            <hr />
+            <partial name="_ListaEmail" model="Model?.ContatoEmails" />
+        </section>
+    </div>
+</div>
+
+
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+

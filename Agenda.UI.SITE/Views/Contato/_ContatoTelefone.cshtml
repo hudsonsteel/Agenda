@@ -1,0 +1,12 @@
+﻿@model Agenda.Aplicacao.ViewModel.ContatoViewModel
+
+<div class="form-group">
+    <label asp-for="ContatoTelefone.Telefone" class="control-label"></label>
+    <input asp-for="ContatoTelefone.Telefone" class="form-control" />
+    <span asp-validation-for="ContatoTelefone.Telefone" class="text-danger"></span>
+    @if (ViewBag.Detalhe != "Detalhe")
+    {
+        <button id="btnNovoTel" type="submit" class="btn btn-default" name="provider" value="@Model" title="Adicionar um novo Telefone" asp-action="AddContatoTelefone">Adicionar</button>
+    }
+  
+</div>

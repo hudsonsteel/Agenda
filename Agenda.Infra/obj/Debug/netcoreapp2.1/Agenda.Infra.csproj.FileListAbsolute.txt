@@ -1,0 +1,14 @@
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Infra.deps.json
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Infra.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Infra.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Dominio.Core.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Dominio.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Dominio.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\bin\Debug\netcoreapp2.1\Agenda.Dominio.Core.pdb
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.csprojAssemblyReference.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.csproj.CoreCompileInputs.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.AssemblyInfoInputs.cache
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.AssemblyInfo.cs
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.csproj.CopyComplete
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.dll
+C:\Users\hudsons\Source\Workspaces\AgendaTelefonica3\Agenda\Agenda.Infra\obj\Debug\netcoreapp2.1\Agenda.Infra.pdb

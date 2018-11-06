@@ -1,0 +1,18 @@
+﻿@model Agenda.Aplicacao.ViewModel.ContatoViewModel
+
+<div>
+    <h4>Detalhe do Contato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <vc:summary />
+
+        <partial name="_Contato" model="Model" />
+
+        <partial name="_ContatoTelefone" model="Model" />
+
+        <partial name="_ContatoEmail" model="Model" />
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
